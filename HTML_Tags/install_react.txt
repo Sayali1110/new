@@ -1,0 +1,284 @@
+Microsoft Windows [Version 10.0.22631.4391]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\KNOW IT\Web Programming\React>node -v
+v22.11.0
+
+D:\KNOW IT\Web Programming\React>npm -v
+10.9.0
+
+D:\KNOW IT\Web Programming\React>npm install -g create-react-app
+npm warn deprecated fstream-ignore@1.0.5: This package is no longer supported.
+npm warn deprecated uid-number@0.0.6: This package is no longer supported.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated fstream@1.0.12: This package is no longer supported.
+npm warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+
+added 64 packages in 5s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+D:\KNOW IT\Web Programming\React>npx create-react-app react
+Cannot create a project named "react" because a dependency with the same name exists.
+Due to the way npm works, the following names are not allowed:
+
+  react
+  react-dom
+  react-scripts
+
+Please choose a different project name.
+
+D:\KNOW IT\Web Programming\React>npx create-react-app myfirstreact
+
+Creating a new React app in D:\KNOW IT\Web Programming\React\myfirstreact.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1314 packages in 2m
+
+259 packages are looking for funding
+  run `npm fund` for details
+Git repo not initialized Error: Command failed: git --version
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:888:11)
+    at execSync (node:child_process:960:15)
+    at tryGitInit (D:\KNOW IT\Web Programming\React\myfirstreact\node_modules\react-scripts\scripts\init.js:46:5)
+    at module.exports (D:\KNOW IT\Web Programming\React\myfirstreact\node_modules\react-scripts\scripts\init.js:276:7)
+    at [eval]:3:14
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:118:14
+    at [eval]-wrapper:6:24 {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 11700,
+  stdout: null,
+  stderr: null
+}
+
+Installing template dependencies using npm...
+
+added 46 packages, and changed 1 package in 11s
+
+263 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1360 packages in 3s
+
+263 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created myfirstreact at D:\KNOW IT\Web Programming\React\myfirstreact
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd myfirstreact
+  npm start
+
+Happy hacking!
+
+D:\KNOW IT\Web Programming\React>cd myfirstreact
+
+D:\KNOW IT\Web Programming\React\myfirstreact>npm start
+
+> myfirstreact@0.1.0 start
+> react-scripts start
+
+Terminate batch job (Y/N)? n
+
+D:\KNOW IT\Web Programming\React\myfirstreact>npm start
+
+> myfirstreact@0.1.0 start
+> react-scripts start
+
+(node:10612) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10612) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.
+
+
+
+
+Microsoft Windows [Version 10.0.22631.4391]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\KNOW IT\Web Programming\React>node -v
+v22.11.0
+
+D:\KNOW IT\Web Programming\React>npm -v
+10.9.0
+
+D:\KNOW IT\Web Programming\React>npm install -g create-react-app
+npm warn deprecated fstream-ignore@1.0.5: This package is no longer supported.
+npm warn deprecated uid-number@0.0.6: This package is no longer supported.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated fstream@1.0.12: This package is no longer supported.
+npm warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+
+added 64 packages in 5s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+D:\KNOW IT\Web Programming\React>npx create-react-app react
+Cannot create a project named "react" because a dependency with the same name exists.
+Due to the way npm works, the following names are not allowed:
+
+  react
+  react-dom
+  react-scripts
+
+Please choose a different project name.
+
+D:\KNOW IT\Web Programming\React>npx create-react-app myfirstreact
+
+Creating a new React app in D:\KNOW IT\Web Programming\React\myfirstreact.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1314 packages in 2m
+
+259 packages are looking for funding
+  run `npm fund` for details
+Git repo not initialized Error: Command failed: git --version
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:888:11)
+    at execSync (node:child_process:960:15)
+    at tryGitInit (D:\KNOW IT\Web Programming\React\myfirstreact\node_modules\react-scripts\scripts\init.js:46:5)
+    at module.exports (D:\KNOW IT\Web Programming\React\myfirstreact\node_modules\react-scripts\scripts\init.js:276:7)
+    at [eval]:3:14
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:118:14
+    at [eval]-wrapper:6:24 {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 11700,
+  stdout: null,
+  stderr: null
+}
+
+Installing template dependencies using npm...
+
+added 46 packages, and changed 1 package in 11s
+
+263 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1360 packages in 3s
+
+263 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created myfirstreact at D:\KNOW IT\Web Programming\React\myfirstreact
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd myfirstreact
+  npm start
+
+Happy hacking!
+
+D:\KNOW IT\Web Programming\React>cd myfirstreact
+
+D:\KNOW IT\Web Programming\React\myfirstreact>npm start
+
+> myfirstreact@0.1.0 start
+> react-scripts start
+
+Terminate batch job (Y/N)? n
+
+D:\KNOW IT\Web Programming\React\myfirstreact>npm start
+
+> myfirstreact@0.1.0 start
+> react-scripts start
+
+(node:10612) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10612) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.
+
+
+
+
